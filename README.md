@@ -37,7 +37,15 @@ Oaxaca de Juarez, Oaxaca.
 
 Este proyecto consiste en un portafolio web personal, construido utilizando **HTML, CSS y JavaScript** (Vanilla), asegurando que cumple con los requerimientos técnicos y de diseño solicitados en la rúbrica.
 
-Se empleó una plantilla basada en el **Portafolio de Ethan Ward y Vinod Jangid**, la cual fue adaptada para incluir una estética moderna y ordenada.
+Se empleó una plantilla basada en el **Portafolio de Sadee y Vinod Jangid**, la cual fue adaptada para incluir una estética moderna y ordenada.
+
+Portafolio de Vinod Jangid
+GitHub: https://github.com/vinodjangid07/vinodjangid07.github.io
+Preview: https://v1.vinodjangid.site/
+
+Portafolio de Sadee
+GitHub: https://github.com/codewithsadee/portfolio
+Preview: https://codewithsadee.github.io/portfolio/
 
 ### Secciones del Portafolio:
 - **Inicio (Hero):** Sección principal que incluye una presentación breve, mi rol actual, botones de llamado a la acción (Call to Action) para contacto y una fotografía de perfil formal.
