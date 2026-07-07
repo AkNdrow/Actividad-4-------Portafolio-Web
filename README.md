@@ -40,11 +40,16 @@ Este proyecto consiste en un portafolio web personal, construido utilizando **HT
 Se empleó una plantilla basada en el **Portafolio de Sadee y Vinod Jangid**, la cual fue adaptada para incluir una estética moderna y ordenada.
 
 Portafolio de Vinod Jangid
+<br>
 GitHub: https://github.com/vinodjangid07/vinodjangid07.github.io
+<br>
 Preview: https://v1.vinodjangid.site/
+<br>
 
 Portafolio de Sadee
+<br>
 GitHub: https://github.com/codewithsadee/portfolio
+<br>
 Preview: https://codewithsadee.github.io/portfolio/
 
 ### Secciones del Portafolio:
