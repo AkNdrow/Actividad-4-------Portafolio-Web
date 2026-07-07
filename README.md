@@ -37,7 +37,7 @@ Oaxaca de Juarez, Oaxaca.
 
 Este proyecto consiste en un portafolio web personal, construido utilizando **HTML, CSS y JavaScript** (Vanilla), asegurando que cumple con los requerimientos técnicos y de diseño solicitados en la rúbrica.
 
-Se empleó una plantilla basada en el **Portafolio Ethan**, la cual fue adaptada para incluir una estética moderna y ordenada.
+Se empleó una plantilla basada en el **Portafolio de Ethan Ward y Vinod Jangid**, la cual fue adaptada para incluir una estética moderna y ordenada.
 
 ### Secciones del Portafolio:
 - **Inicio (Hero):** Sección principal que incluye una presentación breve, mi rol actual, botones de llamado a la acción (Call to Action) para contacto y una fotografía de perfil formal.
@@ -59,4 +59,25 @@ Para el desarrollo del portafolio, se siguieron estos pasos:
 
 ## Capturas de Pantalla
 
-*(Nota: Agrega aquí las imágenes del portafolio funcionando en el navegador)*
+Primer seccion de la pagina (Presentación)
+
+![Alt text](img/CAP1.png)
+
+
+Segunda seccion (Sobre Mí)
+
+![Alt text](img/CAP2.png)
+
+
+Tercer seccion (Habilidades)
+
+![Alt text](img/CAP3.png)
+
+
+Cuarta seccion (Mis Proyectos)
+
+![Alt text](img/CAP4.png)
+
+Quinta seccion (Contacto)
+
+![Alt text](img/CAP5.png)
