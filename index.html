@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 4 - Fondo y Cursor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/portafolio.css">
+</head>
+
+<body>
+    <!-- Elementos del cursor -->
+    <div class="cursor-inner" id="cursor-inner"></div>
+    <div class="cursor-outer" id="cursor-outer"></div>
+
+    <!-- Elemento del fondo (blob) -->
+    <div class="blob"></div>
+
+    <!-- Estructura base extraída del portafolio Ethan -->
+    <div class="content-wrapper">
+
+        <!-- HEADER -->
+        <header class="header">
+            <div class="container">
+                <a href="#">
+                    <h1 class="logo">Actividad 4. Portafolio</h1>
+                </a>
+                <nav class="navbar">
+                    <ul class="navbar-list">
+                        <li><a href="#home" class="navbar-link">Inicio</a></li>
+                        <li><a href="#about" class="navbar-link">Sobre Mí</a></li>
+                        <li><a href="#portfolio" class="navbar-link">Portafolio</a></li>
+                        <li><a href="#contact" class="navbar-link">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <article>
+                <!-- HERO SECTION -->
+                <section class="hero" id="home">
+                    <div class="container hero-container">
+
+                        <div class="hero-content">
+                            <h2 class="hero-title">
+                                <span class="hello-text">Hola, soy</span>
+                                <strong>Andrés Cuevas García</strong>
+                                <span class="subtitle">Ingeniero en Sistemas Computacionales</span>
+                            </h2>
+                            <p class="hero-text">
+                                Estudiante de Ingeniería en Sistemas Computacionales con experiencia en el desarrollo de
+                                aplicaciones
+                                web.
+                                Me apasiona la tecnología y la innovación, y busco constantemente aprender nuevas
+                                habilidades.
+                            </p>
+                            <div class="btn-group">
+                                <a href="#contact" class="btn btn-primary">Obtener Presupuesto</a>
+                                <a href="#about" class="btn btn-secondary">Sobre Mí</a>
+                            </div>
+                        </div>
+
+                        <div class="hero-banner">
+                            <!-- Imagen principal -->
+                            <img src="./img/Foto Perfil.jpeg" alt="Foto de presentación" class="main-photo">
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ABOUT SECTION -->
+                <section class="section about" id="about">
+                    <div class="container">
+                        <p class="section-subtitle">Conóceme</p>
+                        <h2 class="section-title">Sobre Mí</h2>
+                        <p class="section-text">Soy un apasionado de la tecnología con experiencia en el desarrollo de
+                            aplicaciones web. Me gusta aprender cosas nuevas y desafíos. Además, soy una persona
+                            responsable y organizada.
+                            Siempre estoy en busca de nuevas oportunidades para aprender y crecer, y me gusta
+                            trabajar en equipo y colaborar con otros para lograr objetivos comunes.
+                            todo con iniciativa y actitud resiliente.
+                            Mi objetivo es seguir creciendo como profesional y contribuir al desarrollo de proyectos
+                            innovadores.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- SKILLS -->
+                <section class="section skills" id="skills">
+                    <div class="container">
+                        <p class="section-subtitle">Habilidades</p>
+                        <h2 class="section-title">Lo que domino</h2>
+
+                        <div class="skills-grid">
+                            <!-- Tecnologías (Hard Skills) -->
+                            <div class="skills-column">
+                                <h3 class="skills-title">Tecnologías</h3>
+                                <ul class="skills-list">
+                                    <li><i class="fa-brands fa-python"></i> Python</li>
+                                    <li><i class="fa-solid fa-code"></i> C++</li>
+                                    <li><i class="fa-brands fa-html5"></i> HTML, CSS, JavaScript</li>
+                                    <li><i class="fa-brands fa-java"></i> Java</li>
+                                    <li><i class="fa-brands fa-java"></i> JavaFX</li>
+                                    <li><i class="fa-solid fa-database"></i> MySQL</li>
+                                    <li><i class="fa-solid fa-database"></i> PostgreSQL</li>
+                                    <li><i class="fa-solid fa-database"></i> SQL Server</li>
+                                    <li><i class="fa-solid fa-leaf"></i> MongoDB</li>
+                                </ul>
+                            </div>
+
+                            <!-- Soft Skills -->
+                            <div class="skills-column">
+                                <h3 class="skills-title">Soft Skills</h3>
+                                <ul class="skills-list">
+                                    <li><i class="fa-solid fa-users"></i> Trabajo en equipo</li>
+                                    <li><i class="fa-solid fa-comments"></i> Comunicación asertiva</li>
+                                    <li><i class="fa-solid fa-lightbulb"></i> Resolución de problemas</li>
+                                    <li><i class="fa-solid fa-clock"></i> Gestión del tiempo</li>
+                                    <li><i class="fa-solid fa-brain"></i> Pensamiento crítico</li>
+                                    <li><i class="fa-solid fa-arrows-spin"></i> Adaptabilidad</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- PORTFOLIO SECTION -->
+                <section class="section portfolio" id="portfolio">
+                    <div class="container">
+                        <p class="section-subtitle">Portafolio</p>
+                        <h2 class="section-title">Mis Trabajos</h2>
+
+                        <!-- Distribución de elementos en lista (Grid/Flex) -->
+                        <ul class="portfolio-list">
+                            <li>
+                                <div class="card-content">
+                                    <p class="card-subtitle">Categoría 1</p>
+                                    <h3 class="card-title">SayerVision</h3>
+                                    <p>Aplicación Web para la gestión de inventario y la previsualización de colores en
+                                        superficies proporcionadas por los usuarios de la empresa
+                                        <strong>Sayer-Lack</strong>.
+                                        Aplicación realizada en <strong>TypeScript</strong> y base de datos en
+                                        <strong>SQL Server</strong>
+                                        integrado en <strong>supabase</strong>
+                                        aplicando <strong>Lovable style</strong>.
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card-content">
+                                    <p class="card-subtitle">Categoría 2</p>
+                                    <h3 class="card-title">Omis</h3>
+                                    <p>Aplicación de punto de venta escalable para una papeleria de giro mixto.
+                                        Aplicación realizada en <strong>JavaFX</strong> y base de datos en
+                                        <strong>MySQL</strong>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- CONTACT SECTION -->
+                <section class="section contact" id="contact">
+                    <div class="container">
+                        <p class="section-subtitle">Contacto</p>
+                        <h2 class="section-title">Envíame un Mensaje</h2>
+
+                        <div class="wrapper">
+                            <form class="contact-form">
+                                <input type="text" placeholder="Nombre">
+                                <input type="email" placeholder="Email">
+                                <textarea placeholder="Mensaje" rows="5"></textarea>
+                                <button type="button">Enviar Mensaje</button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </article>
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="container">
+                <p class="copyright">&copy; 2026 Actividad 4 - Estructura basada en Ethan.</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Script del portafolio -->
+    <script src="js/portafolio.js"></script>
+</body>
+
+</html>
