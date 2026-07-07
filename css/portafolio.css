@@ -211,6 +211,7 @@ article {
     .hero-content {
         text-align: center;
         order: 2;
+        padding-left: 0;
         /* Pone el texto abajo en móviles */
     }
 
@@ -225,6 +226,7 @@ article {
     .hero-banner {
         order: 1;
         margin-bottom: 50px;
+        padding-right: 0;
     }
 
     .card-1 {
@@ -233,6 +235,73 @@ article {
 
     .card-3 {
         right: -10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .content-wrapper {
+        padding: 20px;
+    }
+
+    .header .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .navbar-list {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .hero-title {
+        font-size: 2.5em;
+    }
+
+    .main-photo {
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+    }
+
+    .float-card {
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .float-card .number {
+        font-size: 1.5em;
+    }
+
+    .float-card .text {
+        font-size: 0.7em;
+    }
+
+    .card-1 { top: 30px; left: -20px; }
+    .card-2 { top: -15px; right: 0; padding: 10px; }
+    .card-3 { bottom: 30px; right: -20px; }
+
+    .section-title {
+        font-size: 2em;
+    }
+
+    .contact-form {
+        flex: 1 1 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 2em;
+    }
+
+    .float-card {
+        display: none;
+    }
+
+    .blob {
+        right: -50%;
+        filter: blur(150px);
     }
 }
 
@@ -473,5 +542,13 @@ body {
 
     to {
         opacity: .5;
+    }
+}
+
+/* Ocultar el cursor personalizado en dispositivos táctiles */
+@media (hover: none) and (pointer: coarse) {
+    .cursor-inner,
+    .cursor-outer {
+        display: none !important;
     }
 }
